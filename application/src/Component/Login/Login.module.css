@@ -1,0 +1,19 @@
+.body{
+    width: 100%;
+    height: calc(100vh - 56px);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+
+}
+.body_item{
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px 5px 2px 2px;
+}
+.body_form{
+    margin: 20px;
+}
